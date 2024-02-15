@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MariMar</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background-color: black; color: white;">
+
+    <div style="position: relative; text-align: center; background-color: black; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);">
+        <img src="cora5.png" alt="Corazón palpitando" style="width: 312px; height: 312px; animation: palpitar 2s infinite alternate; border-radius: 10px;">
+        <p style="margin-top: 20px;">Hola mi niña, algo que realmente es de último momento a decir verdad, pero realmente no quería dejarte solamente con las flores y no quería ser el único sin programar, te amo.</p>
+    </div>
+
+    <audio controls loop style="margin-top: 20px;">
+        <source src="cancion2.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <style>
+        @keyframes palpitar {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</body>
+</html>
